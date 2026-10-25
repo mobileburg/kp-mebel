@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>КП мебель — три варианта</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #10141a;
+      color: #e8eef5;
+      font-family: "Segoe UI", sans-serif;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: rgba(16, 20, 26, .94);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      padding: 16px 24px 14px;
+    }
+    h1 { margin: 0 0 6px; font-size: 22px; font-weight: 700; }
+    p { margin: 0 0 12px; color: #a9b6c6; font-size: 14px; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px; }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 80px; }
+    section { margin-bottom: 48px; }
+    h2 { margin: 0 0 6px; font-size: 28px; }
+    .lead { color: #b7c3d1; margin-bottom: 16px; }
+    figure { margin: 0 0 18px; }
+    figcaption {
+      margin-bottom: 8px;
+      font-size: 13px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: #8ea0b5;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 16px 40px rgba(0,0,0,.35);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Коммерческое предложение — три варианта</h1>
+    <p>Мебельное производство на Битрикс24. Выберите номер, и я соберу его в Word.</p>
+    <nav>
+      <a href="#v1">1 · Контур</a>
+      <a href="#v2">2 · Кабинет</a>
+      <a href="#v3">3 · Маршрут</a>
+    </nav>
+  </header>
+  <main>
+    <section id="v1">
+      <h2>1. Контур</h2>
+      <p class="lead">Светлый фирменный стиль: синий, карточки, маршрут из семи этапов.</p>
+      <figure>
+        <figcaption>Лист 1</figcaption>
+        <img src="screenshots/kp-v1-p1.png" alt="Вариант 1, лист 1" />
+      </figure>
+      <figure>
+        <figcaption>Лист 2</figcaption>
+        <img src="screenshots/kp-v1-p2.png" alt="Вариант 1, лист 2" />
+      </figure>
+    </section>
+    <section id="v2">
+      <h2>2. Кабинет</h2>
+      <p class="lead">Меморандум для руководителя: тёмная шапка, антиква, тонкие линейки.</p>
+      <figure>
+        <figcaption>Лист 1</figcaption>
+        <img src="screenshots/kp-v2-p1.png" alt="Вариант 2, лист 1" />
+      </figure>
+      <figure>
+        <figcaption>Лист 2</figcaption>
+        <img src="screenshots/kp-v2-p2.png" alt="Вариант 2, лист 2" />
+      </figure>
+    </section>
+    <section id="v3">
+      <h2>3. Маршрут</h2>
+      <p class="lead">Производственный лист: сетка чертежа, этапы как посты, узкие места отдельно.</p>
+      <figure>
+        <figcaption>Лист 1</figcaption>
+        <img src="screenshots/kp-v3-p1.png" alt="Вариант 3, лист 1" />
+      </figure>
+      <figure>
+        <figcaption>Лист 2</figcaption>
+        <img src="screenshots/kp-v3-p2.png" alt="Вариант 3, лист 2" />
+      </figure>
+    </section>
+  </main>
+</body>
+</html>
